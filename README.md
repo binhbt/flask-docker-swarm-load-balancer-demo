@@ -10,9 +10,9 @@ Test API and load balancing in swarm mode
 curl -XGET http://0.0.0.0:8081/ha  
 You will get  
 curl -XGET http://0.0.0.0:8081/ha  
->Container Hostname: b5ddd8844e84 , UUID: af45a26a-31e0-40a9-99d1-4b381527a70f  
+Container Hostname: b5ddd8844e84 , UUID: af45a26a-31e0-40a9-99d1-4b381527a70f  
 curl -XGET http://0.0.0.0:8081/ha  
->Container Hostname: 1a846eb36e81 , UUID: 64809a59-c085-4a59-a639-90e15bd0bb06  
+Container Hostname: 1a846eb36e81 , UUID: 64809a59-c085-4a59-a639-90e15bd0bb06  
 
 Down the stack  
 docker stack rm stackdemo  
